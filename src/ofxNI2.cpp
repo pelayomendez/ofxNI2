@@ -27,9 +27,9 @@ namespace ofxNI2
 		// initialize oF path, don't comment out
 		ofToDataPath(".");
 		
-		if (ofFile::doesFileExist("Drivers", false))
+		if (ofFile::doesFileExist("OpenNI2/Drivers", false))
 		{
-			string path = "Drivers";
+			string path = "OpenNI2/Drivers";
 			setenv("OPENNI2_DRIVERS_PATH", path.c_str(), 1);
 			assert_error(openni::OpenNI::initialize());
 		}

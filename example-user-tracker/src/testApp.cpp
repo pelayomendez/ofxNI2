@@ -11,11 +11,13 @@ void testApp::setup()
 	ofBackground(0);
 	
 	device.setup();
+    //device.listDevices();
 	
 	if (tracker.setup(device))
 	{
 		cout << "tracker inited" << endl;
 	}
+
 }
 
 void testApp::exit()

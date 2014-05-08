@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E225936191BB70D00898824 /* libOpenNI2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E225922191BB70D00898824 /* libOpenNI2.dylib */; };
+		3E225938191BB70D00898824 /* libFreenectDriver.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E225927191BB70D00898824 /* libFreenectDriver.dylib */; };
+		3E225939191BB70D00898824 /* libOniFile.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E225928191BB70D00898824 /* libOniFile.dylib */; };
+		3E22593B191BB70D00898824 /* libPS1080.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E22592A191BB70D00898824 /* libPS1080.dylib */; };
+		3E22593C191BB70D00898824 /* libPSLink.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E22592B191BB70D00898824 /* libPSLink.dylib */; };
+		3E22593D191BB70D00898824 /* libusb-1.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E22592C191BB70D00898824 /* libusb-1.0.0.dylib */; };
 		607076A71732686A0068FE37 /* libNiTE2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 607076781732686A0068FE37 /* libNiTE2.dylib */; };
-		607076A81732686A0068FE37 /* libFreenectDriver.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 607076A11732686A0068FE37 /* libFreenectDriver.dylib */; };
-		607076A91732686A0068FE37 /* libOniFile.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 607076A21732686A0068FE37 /* libOniFile.dylib */; };
-		607076AA1732686A0068FE37 /* libPS1080.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 607076A31732686A0068FE37 /* libPS1080.dylib */; };
-		607076AB1732686A0068FE37 /* libOpenNI2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 607076A41732686A0068FE37 /* libOpenNI2.dylib */; };
 		607076AE173275A30068FE37 /* ofxNiTE2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 607076AC173275A30068FE37 /* ofxNiTE2.cpp */; };
 		60E7469217048F9D004BE403 /* ofxNI2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60E7468C17048F9D004BE403 /* ofxNI2.cpp */; };
 		BBAB23CB13894F3D00AA2426 /* GLUT.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BBAB23BE13894E4700AA2426 /* GLUT.framework */; };
@@ -67,6 +69,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3E225922191BB70D00898824 /* libOpenNI2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libOpenNI2.dylib; sourceTree = "<group>"; };
+		3E225924191BB70D00898824 /* OpenNI.ini */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OpenNI.ini; sourceTree = "<group>"; };
+		3E225927191BB70D00898824 /* libFreenectDriver.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libFreenectDriver.dylib; sourceTree = "<group>"; };
+		3E225928191BB70D00898824 /* libOniFile.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libOniFile.dylib; sourceTree = "<group>"; };
+		3E22592A191BB70D00898824 /* libPS1080.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libPS1080.dylib; sourceTree = "<group>"; };
+		3E22592B191BB70D00898824 /* libPSLink.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libPSLink.dylib; sourceTree = "<group>"; };
+		3E22592C191BB70D00898824 /* libusb-1.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libusb-1.0.0.dylib"; sourceTree = "<group>"; };
+		3E22592D191BB70D00898824 /* PS1080.ini */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PS1080.ini; sourceTree = "<group>"; };
+		3E22592E191BB70D00898824 /* PSLink.ini */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PSLink.ini; sourceTree = "<group>"; };
 		607076701732686A0068FE37 /* NiTE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NiTE.h; sourceTree = "<group>"; };
 		607076711732686A0068FE37 /* NiteCAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NiteCAPI.h; sourceTree = "<group>"; };
 		607076721732686A0068FE37 /* NiteCEnums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NiteCEnums.h; sourceTree = "<group>"; };
@@ -100,12 +111,6 @@
 		6070769A1732686A0068FE37 /* OpenNI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenNI.h; sourceTree = "<group>"; };
 		6070769B1732686A0068FE37 /* PS1080.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PS1080.h; sourceTree = "<group>"; };
 		6070769D1732686A0068FE37 /* OniPlatformWin32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OniPlatformWin32.h; sourceTree = "<group>"; };
-		607076A11732686A0068FE37 /* libFreenectDriver.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libFreenectDriver.dylib; sourceTree = "<group>"; };
-		607076A21732686A0068FE37 /* libOniFile.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libOniFile.dylib; sourceTree = "<group>"; };
-		607076A31732686A0068FE37 /* libPS1080.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libPS1080.dylib; sourceTree = "<group>"; };
-		607076A41732686A0068FE37 /* libOpenNI2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libOpenNI2.dylib; sourceTree = "<group>"; };
-		607076A51732686A0068FE37 /* OpenNI.ini */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OpenNI.ini; sourceTree = "<group>"; };
-		607076A61732686A0068FE37 /* PS1080.ini */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PS1080.ini; sourceTree = "<group>"; };
 		607076AC173275A30068FE37 /* ofxNiTE2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxNiTE2.cpp; sourceTree = "<group>"; };
 		607076AD173275A30068FE37 /* ofxNiTE2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxNiTE2.h; sourceTree = "<group>"; };
 		60E7468C17048F9D004BE403 /* ofxNI2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxNI2.cpp; sourceTree = "<group>"; };
@@ -149,26 +154,61 @@
 				E45BE97C0E8CC7DD009D7055 /* ApplicationServices.framework in Frameworks */,
 				E45BE97D0E8CC7DD009D7055 /* AudioToolbox.framework in Frameworks */,
 				E45BE97E0E8CC7DD009D7055 /* Carbon.framework in Frameworks */,
+				3E225936191BB70D00898824 /* libOpenNI2.dylib in Frameworks */,
 				E45BE97F0E8CC7DD009D7055 /* CoreAudio.framework in Frameworks */,
 				E45BE9800E8CC7DD009D7055 /* CoreFoundation.framework in Frameworks */,
 				E45BE9810E8CC7DD009D7055 /* CoreServices.framework in Frameworks */,
+				3E22593D191BB70D00898824 /* libusb-1.0.0.dylib in Frameworks */,
 				E45BE9830E8CC7DD009D7055 /* OpenGL.framework in Frameworks */,
 				E45BE9840E8CC7DD009D7055 /* QuickTime.framework in Frameworks */,
+				3E225939191BB70D00898824 /* libOniFile.dylib in Frameworks */,
 				E4C2424710CC5A17004149E2 /* AppKit.framework in Frameworks */,
+				3E225938191BB70D00898824 /* libFreenectDriver.dylib in Frameworks */,
+				3E22593C191BB70D00898824 /* libPSLink.dylib in Frameworks */,
 				E4C2424810CC5A17004149E2 /* Cocoa.framework in Frameworks */,
+				3E22593B191BB70D00898824 /* libPS1080.dylib in Frameworks */,
 				E4C2424910CC5A17004149E2 /* IOKit.framework in Frameworks */,
 				E7E077E515D3B63C0020DFD4 /* CoreVideo.framework in Frameworks */,
 				607076A71732686A0068FE37 /* libNiTE2.dylib in Frameworks */,
-				607076A81732686A0068FE37 /* libFreenectDriver.dylib in Frameworks */,
-				607076A91732686A0068FE37 /* libOniFile.dylib in Frameworks */,
-				607076AA1732686A0068FE37 /* libPS1080.dylib in Frameworks */,
-				607076AB1732686A0068FE37 /* libOpenNI2.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E225918191BB70D00898824 /* osx */ = {
+			isa = PBXGroup;
+			children = (
+				3E225922191BB70D00898824 /* libOpenNI2.dylib */,
+				3E225924191BB70D00898824 /* OpenNI.ini */,
+				3E225925191BB70D00898824 /* OpenNI2 */,
+			);
+			name = osx;
+			path = ../../../../ofxNi2/libs/OpenNI2/lib/osx;
+			sourceTree = "<group>";
+		};
+		3E225925191BB70D00898824 /* OpenNI2 */ = {
+			isa = PBXGroup;
+			children = (
+				3E225926191BB70D00898824 /* Drivers */,
+			);
+			path = OpenNI2;
+			sourceTree = "<group>";
+		};
+		3E225926191BB70D00898824 /* Drivers */ = {
+			isa = PBXGroup;
+			children = (
+				3E225927191BB70D00898824 /* libFreenectDriver.dylib */,
+				3E225928191BB70D00898824 /* libOniFile.dylib */,
+				3E22592A191BB70D00898824 /* libPS1080.dylib */,
+				3E22592B191BB70D00898824 /* libPSLink.dylib */,
+				3E22592C191BB70D00898824 /* libusb-1.0.0.dylib */,
+				3E22592D191BB70D00898824 /* PS1080.ini */,
+				3E22592E191BB70D00898824 /* PSLink.ini */,
+			);
+			path = Drivers;
+			sourceTree = "<group>";
+		};
 		6070766E1732686A0068FE37 /* NiTE2 */ = {
 			isa = PBXGroup;
 			children = (
@@ -324,30 +364,9 @@
 		6070769E1732686A0068FE37 /* lib */ = {
 			isa = PBXGroup;
 			children = (
-				6070769F1732686A0068FE37 /* osx */,
+				3E225918191BB70D00898824 /* osx */,
 			);
 			path = lib;
-			sourceTree = "<group>";
-		};
-		6070769F1732686A0068FE37 /* osx */ = {
-			isa = PBXGroup;
-			children = (
-				607076A01732686A0068FE37 /* Drivers */,
-				607076A41732686A0068FE37 /* libOpenNI2.dylib */,
-				607076A51732686A0068FE37 /* OpenNI.ini */,
-				607076A61732686A0068FE37 /* PS1080.ini */,
-			);
-			path = osx;
-			sourceTree = "<group>";
-		};
-		607076A01732686A0068FE37 /* Drivers */ = {
-			isa = PBXGroup;
-			children = (
-				607076A11732686A0068FE37 /* libFreenectDriver.dylib */,
-				607076A21732686A0068FE37 /* libOniFile.dylib */,
-				607076A31732686A0068FE37 /* libPS1080.dylib */,
-			);
-			path = Drivers;
 			sourceTree = "<group>";
 		};
 		60ACDB1116FB6E5300C5EF19 /* ofxNI2 */ = {
@@ -647,6 +666,8 @@
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
 				INFOPLIST_FILE = "openFrameworks-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
+				LD_NO_PIE = NO;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../../../data/OpenNI2/lib/";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
@@ -726,6 +747,11 @@
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_14)",
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_15)",
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_16)",
+					/Users/Pelayo/Documents/OpenFrameworks/of_v0.8.0_osx_release/addons/ofxNi2/libs/OpenNI2/lib/osx/Drivers_old,
+					/Users/Pelayo/Documents/OpenFrameworks/of_v0.8.0_osx_release/addons/ofxNi2/libs/OpenNI2/lib/osx,
+					/Users/Pelayo/Documents/OpenFrameworks/of_v0.8.0_osx_release/addons/ofxNi2/libs/OpenNI2/lib/osx/OpenNI2/Drivers,
+					/Users/Pelayo/Documents/OpenFrameworks/of_v0.8.0_osx_release/addons/ofxNi2/libs/OpenNI2/lib/osx_old/Drivers,
+					/Users/Pelayo/Documents/OpenFrameworks/of_v0.8.0_osx_release/addons/ofxNi2/libs/OpenNI2/lib/osx_old,
 				);
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/libs/OpenNI2/lib/osx\"";
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_10 = "\"$(SRCROOT)/../libs/OpenNI2/lib/osx/Drivers\"";
@@ -766,6 +792,8 @@
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
 				INFOPLIST_FILE = "openFrameworks-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
+				LD_NO_PIE = NO;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../../../data/OpenNI2/lib/";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
@@ -845,6 +873,11 @@
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_14)",
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_15)",
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_16)",
+					/Users/Pelayo/Documents/OpenFrameworks/of_v0.8.0_osx_release/addons/ofxNi2/libs/OpenNI2/lib/osx/Drivers_old,
+					/Users/Pelayo/Documents/OpenFrameworks/of_v0.8.0_osx_release/addons/ofxNi2/libs/OpenNI2/lib/osx,
+					/Users/Pelayo/Documents/OpenFrameworks/of_v0.8.0_osx_release/addons/ofxNi2/libs/OpenNI2/lib/osx/OpenNI2/Drivers,
+					/Users/Pelayo/Documents/OpenFrameworks/of_v0.8.0_osx_release/addons/ofxNi2/libs/OpenNI2/lib/osx_old/Drivers,
+					/Users/Pelayo/Documents/OpenFrameworks/of_v0.8.0_osx_release/addons/ofxNi2/libs/OpenNI2/lib/osx_old,
 				);
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/libs/OpenNI2/lib/osx\"";
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_10 = "\"$(SRCROOT)/../libs/OpenNI2/lib/osx/Drivers\"";
