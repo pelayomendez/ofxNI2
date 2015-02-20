@@ -9,9 +9,6 @@
 /* Begin PBXBuildFile section */
 		BBAB23CB13894F3D00AA2426 /* GLUT.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BBAB23BE13894E4700AA2426 /* GLUT.framework */; };
 		C61D15F9178475E8004F2B66 /* libNiTE2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C61D15BA178475E8004F2B66 /* libNiTE2.dylib */; };
-		C61D15FA178475E8004F2B66 /* libFreenectDriver.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C61D15E3178475E8004F2B66 /* libFreenectDriver.dylib */; };
-		C61D15FB178475E8004F2B66 /* libOniFile.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C61D15E4178475E8004F2B66 /* libOniFile.dylib */; };
-		C61D15FC178475E8004F2B66 /* libPS1080.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C61D15E5178475E8004F2B66 /* libPS1080.dylib */; };
 		C61D15FD178475E8004F2B66 /* libOpenNI2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C61D15E6178475E8004F2B66 /* libOpenNI2.dylib */; };
 		C61D15FE178475E8004F2B66 /* ofxNI2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C61D15EB178475E8004F2B66 /* ofxNI2.cpp */; };
 		C61D15FF178475E8004F2B66 /* ofxNiTE2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C61D15ED178475E8004F2B66 /* ofxNiTE2.cpp */; };
@@ -20,7 +17,7 @@
 		C61D1654178477FF004F2B66 /* ofxAssimpMeshHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C61D1645178477FF004F2B66 /* ofxAssimpMeshHelper.cpp */; };
 		C61D1655178477FF004F2B66 /* ofxAssimpModelLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C61D1647178477FF004F2B66 /* ofxAssimpModelLoader.cpp */; };
 		C61D1656178477FF004F2B66 /* ofxAssimpTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C61D1649178477FF004F2B66 /* ofxAssimpTexture.cpp */; };
-		E4328149138ABC9F0047C5CB /* openFrameworks.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworks.a */; };
+		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
 		E45BE97B0E8CC7DD009D7055 /* AGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9710E8CC7DD009D7055 /* AGL.framework */; };
 		E45BE97C0E8CC7DD009D7055 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9720E8CC7DD009D7055 /* ApplicationServices.framework */; };
 		E45BE97D0E8CC7DD009D7055 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9730E8CC7DD009D7055 /* AudioToolbox.framework */; };
@@ -112,7 +109,6 @@
 		C61D15E5178475E8004F2B66 /* libPS1080.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libPS1080.dylib; sourceTree = "<group>"; };
 		C61D15E6178475E8004F2B66 /* libOpenNI2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libOpenNI2.dylib; sourceTree = "<group>"; };
 		C61D15E7178475E8004F2B66 /* OpenNI.ini */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OpenNI.ini; sourceTree = "<group>"; };
-		C61D15E8178475E8004F2B66 /* PS1080.ini */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PS1080.ini; sourceTree = "<group>"; };
 		C61D15E9178475E8004F2B66 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		C61D15EB178475E8004F2B66 /* ofxNI2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxNI2.cpp; sourceTree = "<group>"; };
 		C61D15EC178475E8004F2B66 /* ofxNI2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxNI2.h; sourceTree = "<group>"; };
@@ -204,7 +200,7 @@
 				E7F985F815E0DEA3003869B5 /* Accelerate.framework in Frameworks */,
 				E7E077E815D3B6510020DFD4 /* QTKit.framework in Frameworks */,
 				E4EB6799138ADC1D00A09F29 /* GLUT.framework in Frameworks */,
-				E4328149138ABC9F0047C5CB /* openFrameworks.a in Frameworks */,
+				E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */,
 				E45BE97B0E8CC7DD009D7055 /* AGL.framework in Frameworks */,
 				E45BE97C0E8CC7DD009D7055 /* ApplicationServices.framework in Frameworks */,
 				E45BE97D0E8CC7DD009D7055 /* AudioToolbox.framework in Frameworks */,
@@ -219,9 +215,6 @@
 				E4C2424910CC5A17004149E2 /* IOKit.framework in Frameworks */,
 				E7E077E515D3B63C0020DFD4 /* CoreVideo.framework in Frameworks */,
 				C61D15F9178475E8004F2B66 /* libNiTE2.dylib in Frameworks */,
-				C61D15FA178475E8004F2B66 /* libFreenectDriver.dylib in Frameworks */,
-				C61D15FB178475E8004F2B66 /* libOniFile.dylib in Frameworks */,
-				C61D15FC178475E8004F2B66 /* libPS1080.dylib in Frameworks */,
 				C61D15FD178475E8004F2B66 /* libOpenNI2.dylib in Frameworks */,
 				C61D1651178477FF004F2B66 /* assimp.a in Frameworks */,
 			);
@@ -456,7 +449,6 @@
 				C61D15E2178475E8004F2B66 /* Drivers */,
 				C61D15E6178475E8004F2B66 /* libOpenNI2.dylib */,
 				C61D15E7178475E8004F2B66 /* OpenNI.ini */,
-				C61D15E8178475E8004F2B66 /* PS1080.ini */,
 			);
 			path = osx;
 			sourceTree = "<group>";
@@ -610,7 +602,7 @@
 		E4328144138ABC890047C5CB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E4328148138ABC890047C5CB /* openFrameworks.a */,
+				E4328148138ABC890047C5CB /* openFrameworksDebug.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -683,6 +675,8 @@
 /* Begin PBXProject section */
 		E4B69B4C0A3A1720003C02F2 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "example-assimp-model" */;
 			compatibilityVersion = "Xcode 2.4";
 			developmentRegion = English;
@@ -710,10 +704,9 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		E4328148138ABC890047C5CB /* openFrameworks.a */ = {
+		E4328148138ABC890047C5CB /* openFrameworksDebug.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			name = openFrameworks.a;
 			path = openFrameworksDebug.a;
 			remoteRef = E4328147138ABC890047C5CB /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
@@ -783,6 +776,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = NO;
 				GCC_WARN_UNUSED_VALUE = NO;
 				GCC_WARN_UNUSED_VARIABLE = NO;
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(OF_PATH)/addons/ofxNI2/libs/OpenNI2/lib/osx\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(OF_PATH)/addons/ofxNI2/libs/OpenNI2/lib/osx/OpenNI2/Drivers\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3 = "\"$(OF_PATH)/addons/ofxNI2/libs/NiTE2/lib/osx\"";
 				OTHER_CPLUSPLUSFLAGS = (
 					"-D__MACOSX_CORE__",
 					"-lpthread",
@@ -813,6 +809,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = NO;
 				GCC_WARN_UNUSED_VALUE = NO;
 				GCC_WARN_UNUSED_VARIABLE = NO;
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(OF_PATH)/addons/ofxNI2/libs/OpenNI2/lib/osx\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(OF_PATH)/addons/ofxNI2/libs/OpenNI2/lib/osx/OpenNI2/Drivers\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3 = "\"$(OF_PATH)/addons/ofxNI2/libs/NiTE2/lib/osx\"";
 				OTHER_CPLUSPLUSFLAGS = (
 					"-D__MACOSX_CORE__",
 					"-lpthread",
@@ -929,16 +928,8 @@
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_9)",
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_10)",
 				);
-				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../addons/ofxNI2/libs/NiTE2/lib/osx\"";
-				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_10 = "\"$(SRCROOT)/../../../addons/ofxAssimpModelLoader/libs/assimp/lib/vs\"";
-				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/../../../addons/ofxNI2/libs/OpenNI2/lib/osx/Drivers\"";
-				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3 = "\"$(SRCROOT)/../../../addons/ofxNI2/libs/OpenNI2/lib/osx\"";
-				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_4 = "\"$(SRCROOT)/../../../addons/ofxAssimpModelLoader/libs/assimp/lib/android/armeabi\"";
-				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_5 = "\"$(SRCROOT)/../../../addons/ofxAssimpModelLoader/libs/assimp/lib/android/armeabi-v7a\"";
-				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_6 = "\"$(SRCROOT)/../../../addons/ofxAssimpModelLoader/libs/assimp/lib/ios\"";
-				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_7 = "\"$(SRCROOT)/../../../addons/ofxAssimpModelLoader/libs/assimp/lib/linux\"";
-				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_8 = "\"$(SRCROOT)/../../../addons/ofxAssimpModelLoader/libs/assimp/lib/linux64\"";
-				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_9 = "\"$(SRCROOT)/../../../addons/ofxAssimpModelLoader/libs/assimp/lib/osx\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(OF_PATH)/addons/ofxNI2/libs/OpenNI2/lib/osx\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(OF_PATH)/addons/ofxNI2/libs/OpenNI2/lib/osx/OpenNI2/Drivers\"";
 				PREBINDING = NO;
 				PRODUCT_NAME = "example-assimp-modelDebug";
 				WRAPPER_EXTENSION = app;
@@ -1051,16 +1042,8 @@
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_9)",
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_10)",
 				);
-				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../addons/ofxNI2/libs/NiTE2/lib/osx\"";
-				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_10 = "\"$(SRCROOT)/../../../addons/ofxAssimpModelLoader/libs/assimp/lib/vs\"";
-				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/../../../addons/ofxNI2/libs/OpenNI2/lib/osx/Drivers\"";
-				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3 = "\"$(SRCROOT)/../../../addons/ofxNI2/libs/OpenNI2/lib/osx\"";
-				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_4 = "\"$(SRCROOT)/../../../addons/ofxAssimpModelLoader/libs/assimp/lib/android/armeabi\"";
-				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_5 = "\"$(SRCROOT)/../../../addons/ofxAssimpModelLoader/libs/assimp/lib/android/armeabi-v7a\"";
-				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_6 = "\"$(SRCROOT)/../../../addons/ofxAssimpModelLoader/libs/assimp/lib/ios\"";
-				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_7 = "\"$(SRCROOT)/../../../addons/ofxAssimpModelLoader/libs/assimp/lib/linux\"";
-				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_8 = "\"$(SRCROOT)/../../../addons/ofxAssimpModelLoader/libs/assimp/lib/linux64\"";
-				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_9 = "\"$(SRCROOT)/../../../addons/ofxAssimpModelLoader/libs/assimp/lib/osx\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(OF_PATH)/addons/ofxNI2/libs/OpenNI2/lib/osx\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(OF_PATH)/addons/ofxNI2/libs/OpenNI2/lib/osx/OpenNI2/Drivers\"";
 				PREBINDING = NO;
 				PRODUCT_NAME = "example-assimp-model";
 				WRAPPER_EXTENSION = app;
